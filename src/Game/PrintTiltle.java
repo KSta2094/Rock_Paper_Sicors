@@ -10,7 +10,7 @@ public class PrintTiltle {
 private static char[][] logo;
 private static BufferedImage image;
     public static void load() throws IOException {
-        File file = new File("/Users/konstantinasz/Downloads/Rock Paper Sicors/src/Rock_Paper.png");
+        File file = new File("Rock_Paper.png");
      image = ImageIO.read(file);
         // Getting pixel color by position x and y
         Color color = new Color(image.getRGB(0,0));
